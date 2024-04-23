@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta  http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="creation of single page portfolio website">
+    <meta name="keywords" content="portfolio, single page portfolio, one page portfolio, web developer, web designer">
+    <meta name="author" content="Praharsha">
+	<title>Single Portfolio page</title>
+	<link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+	<link href="style.css" rel="stylesheet">
+    
+
+    <a href="https://www.freepik.com/free-photo/beautiful-woman-holding-clipboard_11938229.htm#fromView=search&page=1&position=20&uuid=339db981-905d-475c-8808-770781da1ca7"></a>
+    <a href="https://www.freepik.com/free-photo/top-view-person-writing-laptop-with-copy-space_10570571.htm#fromView=search&page=1&position=14&uuid=39cffb0b-1b24-49d4-93d2-365b48792000"></a>
+    <a href="https://www.freepik.com/free-photo/close-up-male-hands-using-laptop-home_1025837.htm#fromView=search&page=1&position=22&uuid=ae04fa07-1c53-49c2-90d1-e1bddcb60c86"></a>
+</head>
+<body>
+    <!--NAVIGATION BAR STARTS-->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><span class="text-warning">My</span> Portfolio</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#experience">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <!--NAVIGATION BAR ENDS-->
+
+    <!--PORTFOLIO SINGLE PAGE CONTENT STARTS HERE-->
+
+    <!--CAROUSEL STARTS-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/home2.jpg" class="d-block w-100" alt="profile">
+                <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: black;">Hello There! </h5>
+                <h4 style="color: black;">I am <strong>Anna</strong></h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/home.jpg" class="d-block w-100" alt="laptop">
+                <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: black;">I am a FrontEnd Developer</h5>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+    <!--CAROUSEL ENDS-->
+
+    <!------ABOUT SECTION STARTS------>
+    <section  id="about" class="container mt-3">
+        <div class="container my-5" id="about">
+            <div class="row">
+            <div class="col-lg-6">
+                <img class="w-100 shadow" src="images/me.jpg" />
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5 mt-4">
+                    <h1 class="display-4">About Me</h1>
+                    <h4><b>I am available for UI UX Design Project.</b></h4>
+                    <p>Hi, I am Anna Devin, From USA. Graduate from Chicago University. Completed my Masters in Computer Science and Engineering with Specialization in UI UX Designing. </p>
+                    <a href="#" class="btn btn-outline-dark">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ABOUT SECTION ENDS-->
+
+<!------SKILL SECTION STARTS------>
+    <section  class="bg-light text-center py-5">
+        <div class="container" id="skills">
+                <h2 class="heading-text">My Skills</h2>
+                <div class="skills-container">
+                    <div>
+                        <div class="skill">
+                            <b>HTML</b>
+                            <span>95%</span>
+                            <div>
+                                <span style="width:95%"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <b>CSS</b>
+                            <span>91%</span>
+                            <div>
+                                <span style="width:91%"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <b>JavaScript</b>
+                            <span>85%</span>
+                            <div>
+                                <span style="width:85%"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <b>React js</b>
+                            <span>79%</span>
+                            <div>
+                                <span style="width:79%"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="skill">
+                            <b>React</b>
+                            <span>65%</span>
+                            <div>
+                                <span style="width:65%"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <b>Jquery</b>
+                            <span>85%</span>
+                            <div>
+                                <span style="width:85%"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <b>Node</b>
+                            <span>65%</span>
+                            <div>
+                                <span style="width:65%"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <b>CMD</b>
+                            <span>85%</span>
+                            <div>
+                                <span style="width:85%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br>
+<!--SKILLS SECTION ENDS-->
+
+<!---EDUCATION AND EXPERIENCE SECTION STARTS--->
+    <section id='experience' class="container secondary bg-lightgrey">
+        <div class="container" id="experience">
+        <div class="edu-exp">
+            <h2 class="heading-text">Education</h2>
+            <div class="experience-list">
+                <div class="experience-content">
+                    <h2>Harvard University </h2>
+                    <h3>2005-2008</h3>
+                    <p>Master in Computer Engineering</p>
+                </div>
+            </div>
+            <div class="experience-list">
+                <div class="experience-content">
+                    <h2>Stanford University</h2>
+                    <h3>2005-2008</h3>
+                    <p>Doctor in Computer Engineering</p>
+                </div>
+                </div>
+                <div class="experience-list">
+                <div class="experience-content">
+                    <h2>University of Oxford</h2>
+                    <h3>2005-2008</h3>
+                    <p>Bachelor in Computer Engineering</p>
+                </div>
+                </div>
+                <div class="experience-list">
+                <div class="experience-content">
+                    <h2>University of Cambridge</h2>
+                    <h3>2005-2008</h3>
+                    <p>Polytechnic in Computer Engineering</p>
+                </div>
+                </div>
+            </div>
+            <div class="edu-exp">
+                <h2 class="heading-text">Experience</h2>
+                <div class="experience-list">
+                <div class="experience-content">
+                    <h2>Apple Inc Company</h2>
+                    <h3>2023-current</h3>
+                    <p>Font End Developer</p>
+                </div>
+                </div>
+                <div class="experience-list">
+                <div class="experience-content">
+                    <h2>Google Inc Company</h2>
+                    <h3>2021-2023</h3>
+                    <p>Graphic design student portfolio websites template.</p>
+                </div>
+                </div>
+                <div class="experience-list">
+                <div class="experience-content">
+                    <h2>Amazon Ecommerce Company</h2>
+                    <h3>2019-2021</h3>
+                    <p>Font End Developer</p>
+                </div>
+                </div>
+                <div class="experience-list">
+                <div class="experience-content">
+                    <h2>Microsoft Adobe Company</h2>
+                    <h3>2017-2019</h3>
+                    <p>UI / UX Designer</p>
+                </div>
+                </div>
+            </div>
+                </div>
+            </div>
+    </section><br><br>
+    <!--EDUCATION AND EXPERIENCE SECTION ENDS-->
+
+    <!--PROJECT SECTION STARTS-->
+<section id="projects" class="project-section bg-light">
+    <div class="container" id="projects"><br>
+        <h2 class="heading-text">My Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/p1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">The Dynamic Recipe Website project aimed to create a user-friendly platform for food enthusiasts to explore and share recipes. The website provides a dynamic interface where users can not only browse a vast collection of recipes but also contribute their own culinary creations. Through a modern and responsive design, users can seamlessly navigate the website on various devices, enhancing accessibility.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/p2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Design</h5>
+                        <p class="card-text">The primary objective of this project was to replicate the core features and aesthetics of Instagram's web interface while adding a touch of creativity and personalization. This involved meticulous attention to detail, from the layout and color scheme to the functionality of various components such as the feed, profile pages, and interactive elements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/p3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">UI UX Design</h5>
+                        <p class="card-text">The primary objective of this project was to build a user-friendly website.In the digital age, user experience (UX) and user interface (UI) design play pivotal roles in shaping the success of online platforms. As an enthusiast in enhancing digital interactions, I embarked on a transformative project aimed at revamping the UI/UX of Reddit, a leading social news aggregation, web content rating, and discussion website.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><br><br>
+<!--PROJECT SECTION ENDS-->
+
+<!--CONTACT SECTION STARTS-->
+    <div class="main-section contact bg-lightgrey"  id="contact">
+    <div class="container" >
+        <h2 class="heading-text">Get In Touch</h2>
+        <div class="width-100">
+            <form>
+                <input type="text" placeholder="Full Name..." required>
+                <input type="email" placeholder="Full Email Id..." required>
+                <input type="phone" placeholder="Full Mobile No..." required>
+                <textarea placeholder="Enter message..." required></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+            <div class="width-33">
+            <h3>
+                <i class="fa fa-map-marker"></i>
+            </h3>
+            <h4>Address</h4>
+            <p>186, 3rd floor, near Hotel Galaxy Star, Near Sargam Cinema, Zone-II,M P Nagar</p>
+        </div>
+        <div class="width-33">
+            <h3>
+                <i class="fa fa-phone"></i>
+            </h3>
+            <h4>Phone</h4>
+            <p>+91 1234567890</p>
+        </div>
+        <div class="width-33">
+            <h3>
+                <i class="fa fa-envelope-o"></i>
+            </h3>
+            <h4>Email</h4>
+            <p>annadevin@yahoo.com</p>
+        </div>
+    </div>
+    </div>
+    <!--CONTACT SECTION ENDS-->
+
+    <!------FOOTER SECTION STARTS------>
+    <div class="footer">
+        <center>
+        <div class="container">
+        <div class="footer-sect social-icon width-50">
+            <a href="#">
+            <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#">
+            <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+            <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+        <div class="footer-sect mt-20 width-50">CopyRight © 2023 annadevin.com Website Template. All Rights Reserved</div>
+        </div>
+        </center>
+    </div>
+    <!--FOOTER SECTION ENDS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
